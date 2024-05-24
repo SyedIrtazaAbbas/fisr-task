@@ -1315,6 +1315,7 @@
     padding: 28px 15px;
     margin-left: 15px;
     height: 69.9vh;
+    overflow: hidden;
 
     border-radius: 15px;
   }
@@ -1503,7 +1504,7 @@
   .catsocial {
     display: flex;
     justify-content: center;
-    max-height: 235px;
+    max-height: 300px;
     overflow-y: auto;
   }
 
@@ -1768,7 +1769,7 @@
     padding: 20px 15px;
     margin-left: 15px;
     height: 69.9vh;
-
+overflow: hidden;
     border-radius: 15px;
   }
 
@@ -1872,7 +1873,7 @@
   .catsocial {
     display: flex;
     justify-content: center;
-    max-height: 170px;
+    max-height: 470px;
     overflow-y: auto;
   }
 
@@ -2083,14 +2084,15 @@ margin-top: 20px;
   .catsocial {
     display: flex;
     justify-content: center;
-    max-height: 100px;
-    overflow-y: auto;
+    max-height: 320px;
+    overflow-y: scroll;
   }
 
   .cat-social-list li {
     display: flex;
     justify-content: center;
     text-align: center;
+    
   }
 
   .cat-social-list li a {
@@ -2181,6 +2183,8 @@ margin-top: 20px;
     width: 280px;
     padding: 25px 15px;
     margin-left: 15px;
+    overflow: hidden;
+
     height: 69.9vh;
 
     border-radius: 15px;
@@ -2430,7 +2434,7 @@ margin-top: 20px;
 
 
 
-@media screen and (min-width:914px) and (max-width:1023px) {
+@media screen and (min-width:918px) and (max-width:1023px) {
   .call {
 
 
@@ -2818,7 +2822,7 @@ margin-top: 20px;
 
 
 
-@media screen and (min-width:911px) and (max-width:913px) {
+@media screen and (min-width:911px) and (max-width:917px) {
   .call {
 
 
@@ -3131,7 +3135,7 @@ margin-top: 20px;
 
 
 
-    height: 520px;
+    height: 720px;
     padding: 0 0px;
     display: flex;
     flex-direction: column;
@@ -4297,7 +4301,7 @@ margin-top: 20px;
 
 
 
-    height: 520px;
+    height: 790px;
     padding: 0 0px;
     display: flex;
     flex-direction: column;
@@ -4312,7 +4316,7 @@ margin-top: 20px;
 
 
     height: auto;
-    width: 170px;
+    width: 200px;
     border-radius: 20px;
 
   }
@@ -4690,7 +4694,7 @@ margin-top: 20px;
 
 
 
-    height: 520px;
+    height: 630px;
     padding: 0 0px;
     display: flex;
     flex-direction: column;
@@ -6310,7 +6314,390 @@ margin-top: 20px;
 
 
 
-@media screen and (min-width:434px) and (max-width:440px) {
+@media screen and (min-width:436px) and (max-width:440px) {
+  .call {
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 20px;
+    justify-content: space-evenly;
+
+  }
+
+  .fliterbutton {
+    color: rgb(47, 146, 138);
+    position: relative;
+    right: 0;
+    left: -14px;
+
+  }
+
+  .adspages {
+
+    display: block;
+
+  }
+
+
+  .adsline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .flutline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+
+
+  .ada {
+
+
+
+
+
+    display: block;
+    padding: 10px 15px;
+  }
+
+
+  .adssreach {
+    color: white;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .closememu {
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    padding: 10px 15px;
+  }
+
+  .productleft {
+    height: 900%;
+  }
+
+  .adssreach input {
+
+
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 7px #050F14 solid;
+    width: 340px;
+    color: white;
+    padding-left: 30px;
+  }
+
+
+  .adssreach i {
+
+
+
+
+
+    display: none;
+  }
+
+
+
+
+  .productleft h1 {
+
+
+    align-items: center;
+    padding: 15px;
+    font-size: 1.1em;
+  }
+
+
+  .productsocial {
+
+
+    overflow: hidden;
+    width: 100%;
+
+  }
+
+
+
+  .productsocial ul {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-button {
+    cursor: pointer;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+
+  .modal.show {
+    transform: translateX(0);
+  }
+
+  .productleft {
+    /* background-color: hsla(0, 0%, 6%, 0.2);
+                                                    backdrop-filter: blur(16px); */
+    display: block;
+    width: 100%;
+    align-items: center;
+  }
+
+  .productsocial ul li {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 17px;
+    font-size: 1em;
+  }
+
+
+  .productsocial ul li i {
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .links {
+    background-color: #0D000D;
+    color: rgb(47, 146, 138);
+
+    padding: 10px 20px;
+    display: flex;
+  }
+
+  .proright {
+    margin-top: 20px;
+    display: block;
+    color: whitesmoke;
+    padding: 16px 10px;
+  }
+
+  .adsicons a {
+    font-size: 0.6em;
+
+    margin-left: 0px;
+    color: whitesmoke;
+  }
+
+  .catsocial {
+    display: flex;
+    justify-content: start;
+    max-height: 620px;
+    overflow-y: auto;
+    text-overflow: ellipsis;
+  }
+
+  .cat-social-list li {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+  }
+
+  .cat-social-list li a {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    font-size: 0.99rem;
+    padding: 3px 10px;
+  }
+
+  .buttonofleftscolling {
+    background: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .leftscoll h1 {
+    display: flex;
+    padding: 10px 20px;
+
+    justify-content: start;
+    font-weight: 600;
+  }
+
+
+  .leftscoll h2 {
+    display: flex;
+    font-weight: normal;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+  }
+
+  .translatedDiv {
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .translatedDiv.slide-left {
+    transform: translateX(-11%);
+  }
+
+  .adsicons i {
+    padding: 0px 4px;
+    color: whitesmoke;
+  }
+
+
+  .prorightlinks {
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+  }
+
+
+  .prorightlinks li {
+
+
+    list-style-type: none;
+    margin-right: 10px;
+
+
+  }
+
+  .productsocial span {
+    display: none;
+  }
+
+  .links-list .links {
+
+    font-size: 1em;
+    padding: 10px 19px;
+
+
+  }
+
+
+
+
+
+  .links-list {
+
+    display: inline-flex;
+    padding: 0 10px;
+  }
+
+
+  .rightscrolling {
+
+
+
+    overflow-y: scroll;
+
+
+
+
+
+    height: 555px;
+    padding: 0 0px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .adsimgcard img {
+
+
+
+
+
+    height: auto;
+    width: 170px;
+    border-radius: 20px;
+
+  }
+
+
+
+
+  .addetails {
+
+
+
+
+
+    display: block;
+
+
+  }
+
+
+
+  .adsinfo h1 {
+
+
+
+
+
+
+
+
+    font-size: 1em;
+    font-weight: normal;
+
+
+  }
+
+
+
+
+  .adsinfo a {
+
+
+
+
+
+    font-size: 0.7em;
+
+
+
+  }
+
+
+
+
+
+
+}
+
+@media screen and (min-width:431px) and (max-width:435px) {
   .call {
     flex-wrap: wrap;
     align-items: center;
@@ -6610,15 +6997,8 @@ margin-top: 20px;
 
   .rightscrolling {
 
-
-
     overflow-y: scroll;
-
-
-
-
-
-    height: 560px;
+    height: 550px;
     padding: 0 0px;
     margin-top: 15px;
     display: flex;
@@ -6694,8 +7074,7 @@ margin-top: 20px;
 
 
 
-
-@media screen and (min-width:430px) and (max-width:433px) {
+@media screen and (min-width:430px) and (max-width:431px) {
   .call {
     flex-wrap: wrap;
     align-items: center;
@@ -6996,7 +7375,7 @@ margin-top: 20px;
   .rightscrolling {
 
     overflow-y: scroll;
-    height: 590px;
+    height: 610px;
     padding: 0 0px;
     margin-top: 15px;
     display: flex;
@@ -7283,6 +7662,8 @@ margin-top: 20px;
     justify-content: start;
     max-height: 620px;
     overflow-y: auto;
+    text-overflow: ellipsis;
+
   }
 
   .cat-social-list li {
